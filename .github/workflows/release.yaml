@@ -42,8 +42,4 @@ jobs:
           echo ${{ steps.semantic.outputs.new_release_patch_version }}
           echo ${{ steps.semantic.outputs.new_release_channel }}
           echo ${{ steps.semantic.outputs.new_release_notes }}
-          echo ${{ steps.semantic.outputs.new_release_git_head }}
-          echo ${{ steps.semantic.outputs.new_release_git_tag }}
           echo ${{ steps.semantic.outputs.last_release_version }}
-          echo ${{ steps.semantic.outputs.last_release_git_head }}
-          echo ${{ steps.semantic.outputs.last_release_git_tag }}
