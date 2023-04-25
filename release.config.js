@@ -28,7 +28,13 @@ module.exports = {
             releaseNotesGenOptions
         ],
         "@semantic-release/changelog",
-        "@semantic-release/github",
+        [
+            "@semantic-release/github",
+            {
+                "successComment": false,
+                "failTitle": false
+            }
+        ],
         [
             "@semantic-release/git",
             gitOptions
